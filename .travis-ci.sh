@@ -18,3 +18,5 @@ export OPAMYES=1
 opam init 
 opam install ${OPAM_DEPENDS}
 eval `opam config env`
+oasis setup
+make test

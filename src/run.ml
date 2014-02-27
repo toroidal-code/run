@@ -52,7 +52,7 @@ let execute filename =
     | _, None -> 
       failwith "Run could not determine how to run this file because it has no extension."
   in
-  let run_cmd = match StringMap.find command_map "extension" with
+  let run_cmd = match StringMap.find command_map extension with
   | Some(cmd) -> Str.global_replace (Str.regexp "%") filename cmd 
   | None -> failwith "Run could not determine how to run this file because it has an unknown extension."
   in

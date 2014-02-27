@@ -1,0 +1,13 @@
+OASISFormat: 0.4
+Name:        run
+Version:     0.1
+Synopsis:    Run any script
+Authors:     Katherine Whitlock
+License:     MIT
+
+Executable run
+  Path:       src
+  BuildTools: ocamlbuild
+  MainIs:     run.ml
+  
+  

@@ -1,0 +1,14 @@
+{
+  "c": "gcc % && ./a.out", 
+  "clj": "clj %", 
+  "hs": "runhaskell %", 
+  "py": "python %", 
+  "jar": "java -jar %", 
+  "coffee": "coffee %", 
+  "lua": "lua %", 
+  "sh": "sh %", 
+  "rb": "ruby %", 
+  "ml": "ocaml %", 
+  "go": "go run %", 
+  "zsh": "zsh %"
+}

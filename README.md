@@ -1,6 +1,4 @@
 # Run
-[![Build Status](https://travis-ci.org/toroidal-code/run.png)](https://travis-ci.org/toroidal-code/run)
-
 A simple command line tool for running individual files of source code.
 
 Run is kind of like [open](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/open.1.html) for Mac or [xdg-open](https://wiki.archlinux.org/index.php/xdg-open) for Linux, except it tries to always run source code files instead of just opening them in text editors. Run can also automatically compile source code for languages that need to be compiled.

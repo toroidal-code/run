@@ -4,8 +4,6 @@ Version:     0.1
 Synopsis:    Run any script
 Authors:     Katherine Whitlock
 License:     MIT
-Plugins:     DevFiles (0.4)
-XDevFilesEnableMakefile: true
 
 Executable run
   Path:       src

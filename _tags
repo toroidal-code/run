@@ -1,0 +1,25 @@
+# OASIS_START
+# DO NOT EDIT (digest: 452f61a9f5dc58004c8910233213a670)
+# Ignore VCS directories, you can use the same kind of rule outside
+# OASIS_START/STOP if you want to exclude directories that contains
+# useless stuff for the build process
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
+# Executable run
+<src/run.{native,byte}>: pkg_core
+<src/run.{native,byte}>: pkg_str
+<src/run.{native,byte}>: pkg_threads
+<src/run.{native,byte}>: pkg_yojson
+<src/*.ml{,i}>: pkg_core
+<src/*.ml{,i}>: pkg_str
+<src/*.ml{,i}>: pkg_threads
+<src/*.ml{,i}>: pkg_yojson
+# OASIS_STOP
